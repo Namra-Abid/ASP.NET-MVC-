@@ -28,6 +28,7 @@ namespace WebApplication1.Controllers
             }
             return profile;
         }
+        //https://localhost:xxx/Employee/EmployeeAddress?id=1&department=AccountsDepartment
         public string EmployeeAddress(int id, string department)
         {
             return "id :" + id + " Department :" + department;
