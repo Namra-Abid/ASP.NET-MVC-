@@ -34,7 +34,7 @@ namespace WebApplication1.Controllers
             return "id :" + id + " Department :" + department;
         }
         //https://localhost:xxx/Employee/EmployeeMaritalStatus?id=1&ismarried
-        //https://localhost:xxx/Employee/EmployeeMaritalStatus?id=1&ismarried=Yes
+        //https://localhost:xxxgit/Employee/EmployeeMaritalStatus?id=1&ismarried=Yes
         public string EmployeeMaritalStatus(int id, string ? ismarried=null)
         {
             return "id :" + id + " Is Married :" + ismarried;
