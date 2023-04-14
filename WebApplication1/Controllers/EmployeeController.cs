@@ -9,6 +9,7 @@ namespace WebApplication1.Controllers
     public class EmployeeController : Controller
     {
         // GET: Employee
+        //https://localhost:xxxx/Employee/EmployeeProfile?id=1
         public string EmployeeProfile(int id)
         {
             string profile;
