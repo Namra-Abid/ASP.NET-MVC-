@@ -28,6 +28,9 @@ namespace WebApplication1.Controllers
             }
             return profile;
         }
-
+        public string EmployeeAddress(int id, string department)
+        {
+            return "id :" + id + " Department :" + department;
+        }
     }
 }
