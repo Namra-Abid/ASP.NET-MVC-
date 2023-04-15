@@ -16,18 +16,22 @@ namespace ModelsInMVC.Controllers
             return View(dataEmp1);
         }
 
-        public ActionResult About()
+        public ActionResult Student()
         {
-            ViewBag.Message = "Your application description page.";
+            var data = GetStudent();
+            return View(data);
 
-            return View();
         }
 
-        public ActionResult Contact()
+        private Student GetStudent()
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return new Student()
+            {
+                id = 1001,
+                name = "Namra",
+                course = "English"
+            };
         }
+        
     }
 }
