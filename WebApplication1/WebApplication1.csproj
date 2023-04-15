@@ -170,6 +170,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Faculty\Index.cshtml" />
     <Content Include="Views\Faculty\Details.cshtml" />
+    <Content Include="Views\Faculty\AboutFaculty.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
