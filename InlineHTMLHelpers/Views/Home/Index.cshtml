@@ -12,7 +12,7 @@
         {
             if (any_str_array.Length == 0)
             {
-                <h4>Array is Empty</h4>
+                <h4>No Data Exist</h4>
             }
             else
             {
@@ -27,16 +27,29 @@
                 <ul>
                     @for (int i = 0; i < any_str_array.Length; i++)
                     {
-                    <li>@any_str_array[i]</li>
+                        <li>@any_str_array[i]</li>
                     }
 
                 </ul>
-                
+
             }
 
         }
 
     </div>
-    @MyListHelper(new string[] {"English","Maths","Science","SST"})
+    <h3>
+        Example 1
+    </h3>
+    @MyListHelper(new string[] { "English", "Maths", "Science", "SST" })
+
+    <h3>
+        Example 2
+    </h3>
+    @MyListHelper(new string[] { "Lilly", "Rose", "Sadabahar", "Sunflower" })
+
+    <h3>
+        Example 3
+    </h3>
+    @MyListHelper(new string[] {  })
 </body>
 </html>
